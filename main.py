@@ -15,7 +15,7 @@ if __name__ == "__main__":
 				"password": row["password"]
 			})
 	menu_choices = 0
-	while menu_choices != 4:
+	while menu_choices != 3:
 		menu_choices = menus.main_menu()
 		if menu_choices == 1:
 # make function inside menus.py file for the print_user()
