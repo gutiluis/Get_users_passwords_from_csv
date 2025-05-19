@@ -6,6 +6,7 @@ def main_menu():
 		print("===MENU===")
 		print("1 - Print users")
 		print("2 - Print passwords")
+		print("3 - Quit the app")
 		choices = input("Select option 1 or 2: ")
 		if choices not in ["1", "2"]:
 			raise utils.MenuOptionError
